@@ -1,0 +1,46 @@
+:root {
+    --light-blue: #03A9F4;
+    --light-gray: #626262;
+    --dark-gray: #7D7D7D;
+    --nav-color: #B4AD9E;
+}
+
+body {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    color: var(--dark-gray);
+}
+.container{
+    max-width: 906px;
+    margin: 0 auto;
+}
+
+.article-subtitle {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: var(--light-gray);
+}
+
+.navigtion-link {
+    font-size: 14px;
+    color: var(--nav-color);
+}
+
+.navigtion-link:hover{
+    color: var(--light-blue);
+}
+
+.articles-title {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.article-subtitle {
+    font-style: 14px;
+}
+
+.articles-text {
+    font-size: 14px;
+    line-height: 1.3;
+}
